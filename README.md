@@ -2,6 +2,7 @@
 Ce TP est pour le groupe TURQUIN Théo et VINOT Paul M1TNSI.
 
 Ce projet a été fait sous Android Studio en JAVA
+Les utilisateurs enregistrés actuellement dans l'application sont Théo avec comme mot de passe 123, cet utilisateur n'a pas de voiture par défaut enregistré en base de donnée, et Paul avec comme mot de passe 123, cet utilisateur à lui une voiture situé à l'université de Valenciennes.
 
 ## Sommaire
 ### Fonctionnement général
