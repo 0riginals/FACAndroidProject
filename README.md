@@ -1,5 +1,6 @@
 # Car Retriever
 Ce TP est pour le groupe TURQUIN Théo et VINOT Paul M1TNSI.
+Ce projet a été fait sous Android Studio en JAVA
 
 ## Sommaire
 ### Fonctionnement général
