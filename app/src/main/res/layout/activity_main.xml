@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:anndroid="http://schemas.android.com/apk.res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    tools:context="com.benameur.carretriever.controler.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:text="Bienvenue sur Car Retriever. Pour votre première connexion, veuillez vous connecter ou vous enregistrer!" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CONNEXION"
+        android:textSize="20sp"
+        android:textColor="@color/colorSteelBlue"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"/>
+    <EditText
+        android:id="@+id/activity_main_login_pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="PSEUDO" />
+    <EditText
+        android:id="@+id/activity_main_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="MOT DE PASSE"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/activity_main_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CONNEXION"
+        android:background="@color/colorSteelBlue"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="OU"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="ENREGISTREMENT"
+        android:textColor="@color/colorSteelBlue" />
+    <EditText
+        android:id="@+id/activity_main_register_pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="PSEUDO" />
+    <EditText
+        android:id="@+id/activity_main_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPassword"
+        android:hint="MOT DE PASSE" />
+    <EditText
+        android:id="@+id/activity_main_register_confirmation_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPassword"
+        android:hint="CONFIRMER" />
+    <Button
+        android:id="@+id/activity_main_register_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ENREGISTRER"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/colorSteelBlue"
+        android:textColor="@color/white" />
+</LinearLayout>
