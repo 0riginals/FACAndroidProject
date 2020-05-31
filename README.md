@@ -31,7 +31,7 @@ Notre classe Car contient quant à elle les informations sur la latitude et la l
 Notre classe UserBank est la classe permettant d'avoir la liste d'utilisateurs de notre application.
 
 ### Ce qu'il reste a developper
-Afin d'avoir 99.9% des fonctionnalités prévues par notre application ne devrons:
+Afin d'avoir 99.9% des fonctionnalités prévues par notre application nous devrons:
 - Mettre en place la base de donnée SQL
 - Mettre un hash sur notre mot de passe 
 - Faire l'itinéraire avec l'affichage du temps estimé ainsi qu'une mise a jour des markers lors de l'approche de l'utilisateur sur la voiture.
